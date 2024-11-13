@@ -1,0 +1,30 @@
+
+a.link {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+
+a.link1:hover {
+    color: #FF5733; 
+    text-decoration: underline;
+}
+
+
+a.link2:active {
+    color: #28A745; 
+    transform: scale(2);
+}
+
+
+a.link3:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); 
+}
+
+
+a.link4:visited {
+    color: #6c757d; 
+}
